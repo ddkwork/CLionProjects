@@ -6,6 +6,7 @@ import os;
 //todo
 // how to split package name space
 // msvc can not detect module
+// windows driver detect module
 
 int main() {
     hello();
