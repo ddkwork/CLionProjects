@@ -11,6 +11,7 @@ import os;
 // c++ class test
 // c++ namespace test
 // can not auto import module methods ?
+// xmake editor so bad, so do not ust it
 
 int main() {
     hello();
