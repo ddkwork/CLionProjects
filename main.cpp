@@ -10,6 +10,7 @@ import os;
 // rust and carbon test
 // c++ class test
 // c++ namespace test
+// can not auto import module methods ?
 
 int main() {
     hello();
