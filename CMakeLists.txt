@@ -5,9 +5,9 @@ add_compile_options(/experimental:module)
 
 add_executable(
         SimpleExample
-        file/file.cpp
-        hex/hex.cpp
-        os/os.cpp
+        file/file.cppm
+        hex/hex.cppm
+        os/os.cppm
         helloworld/helloworld.cppm
         #        hello.ixx
         main.cpp
