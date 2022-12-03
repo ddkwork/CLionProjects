@@ -1,3 +1,4 @@
 log.log
 .idea
 main.exe
+/cmake-build-debug/
