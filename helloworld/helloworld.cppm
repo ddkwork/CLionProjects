@@ -1,10 +1,7 @@
+export module helloworld;
+import <iostream>;
 
-
-export module helloworld; // module declaration
-
-import <iostream>;        // import declaration
-
-export void hello()       // export declaration
+export void hello()
 {
     std::cout << "Hello world!\n";
 }
