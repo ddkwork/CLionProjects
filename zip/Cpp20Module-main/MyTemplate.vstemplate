@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Cpp20Modules</Name>
+    <Description>Console Application, utilises C++20 modules</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>Console</ProjectSubType>
+    <ProjectSubType>C++20</ProjectSubType>
+    <ProjectSubType>Modules</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Cpp20Modules</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.vcxproj" File="Cpp20Modules.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.vcxproj.filters">Cpp20Modules.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.cpp">Cpp20Modules.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$_Headers.ixx">HEADERS\Cpp20Modules_Headers.ixx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Hello.ixx">HELLO\Hello.ixx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
