@@ -1,4 +1,4 @@
- import std.string;
+import <iostream>;
 
 int main(){
     printf("hello");
