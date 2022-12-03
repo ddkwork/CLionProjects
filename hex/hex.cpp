@@ -1,6 +1,6 @@
 
 export module hex;
 
-char *Dump() {
+export char *Dump() {
 
 }

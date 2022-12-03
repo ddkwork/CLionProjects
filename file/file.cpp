@@ -1,6 +1,6 @@
 
 export module file;
 
-char *ReadFile() {
+export char *ReadFile() {
 
 }

@@ -1,7 +1,7 @@
 
 export module os;
 
-char *HomeDir() {
+export char *HomeDir() {
 
 }
 
