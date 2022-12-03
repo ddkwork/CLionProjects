@@ -1,4 +1,4 @@
-import helloworld; // import declaration
+import helloworld;
 import file;
 import hex;
 import os;
