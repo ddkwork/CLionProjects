@@ -1,6 +1,6 @@
-import <iostream>;
+import helloworld; // import declaration
 
-int main(){
-    printf("hello");
-    return 0;
+int main()
+{
+    hello();
 }
